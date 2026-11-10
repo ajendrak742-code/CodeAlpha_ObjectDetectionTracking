@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Downloaded automatically on first run
+models/
+
+# Sample and output videos are large; see the README for how to get a sample
+samples/*
+!samples/.gitkeep
+*.mp4
+*.avi
